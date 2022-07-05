@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aftab.suspectory">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".Utills.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Suspectory"
+        tools:replace="android:theme">
+        <activity android:name=".Activities.Main.AddDevicesActivity"></activity>
+        <activity android:name=".Activities.Main.LocationHistoryActivity" />
+
+        <service
+            android:name=".Services.PlayAudioService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".Activities.Main.ViewLocationActivity" />
+        <activity android:name=".Activities.Main.AboutActivity" />
+        <activity android:name=".Activities.Main.ChangePasswordActivity" />
+        <activity android:name=".Activities.Main.EditProfileActivity" />
+        <activity android:name=".Activities.Main.SettingsActivity" />
+        <activity android:name=".Activities.Main.UnknownContactsActivity" />
+        <activity android:name=".Activities.Main.AllContactsActivity" />
+        <activity android:name=".Activities.Main.HourlyLocationActivity" />
+        <activity android:name=".Activities.Main.ChatActivity" />
+        <activity android:name=".Activities.Main.SuspectedContactsActivity" />
+        <activity android:name=".Activities.StartUp.CreatePasswordActivity" />
+        <activity android:name=".Activities.Main.NotificationsActivity" />
+        <activity android:name=".Activities.StartUp.VerifyEmailActivity" />
+        <activity android:name=".Activities.StartUp.ForgetPasswordActivity" />
+        <activity
+            android:name=".Activities.StartUp.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".Activities.StartUp.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+        <activity android:name=".Activities.StartUp.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.Main.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

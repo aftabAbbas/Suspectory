@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#0F1941</color>
+    <color name="purple_500">#0F1941</color>
+    <color name="purple_700">#0F1941</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black_10">#19000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FE0000</color>
+    <color name="gray">#898989</color>
+    <color name="sunGlow">#FFC634</color>
+    <color name="royal_blue">#5B5EFF</color>
+    <color name="gray_alpha_50">#808F8F8F</color>
+    <color name="mona_lisa">#FF9999</color>
+    <color name="school_bus_yellow">#FFDD00</color>
+    <color name="green">#008000</color>
+    <color name="gray98">#ECECEC</color>
+    <color name="gray90">#E0E0E0</color>
+    <color name="orange_peel">#FC9A07</color>
+    <color name="black_50">#46000000</color>
+    <color name="toolbarColor">#000</color>
+
+    <color name="pureBlack">#000</color>
+    <color name="pureWhite">#fff</color>
+    <color name="cardBG">#000</color>
+    <color name="loadingBG">#fff</color>
+    <color name="black_70">#B2000000</color>
+    <color name="mercury">#E5E5E5</color>
+</resources>

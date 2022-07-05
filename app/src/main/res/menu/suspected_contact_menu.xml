@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_by_ascending"
+            android:checkable="true"
+            android:title="@string/ascending" />
+        <item
+            android:id="@+id/menu_by_descending"
+            android:checkable="true"
+            android:title="@string/descending" />
+    </group>
+</menu>

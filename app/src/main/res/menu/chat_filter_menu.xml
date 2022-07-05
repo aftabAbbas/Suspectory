@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_by_all"
+            android:checkable="true"
+            android:icon="@drawable/ic_msg_chat"
+            android:title="All" />
+
+
+        <item
+            android:id="@+id/menu_by_call_rec"
+            android:checkable="true"
+            android:icon="@drawable/ic_msg_chat"
+            android:title="Call Recordings" />
+
+
+        <item
+            android:id="@+id/menu_by_sim_msg"
+            android:checkable="true"
+            android:icon="@drawable/ic_msg_chat"
+            android:title="GSM Message" />
+
+        <item
+            android:id="@+id/menu_by_sim_call"
+            android:checkable="true"
+            android:icon="@drawable/ic_msg_chat"
+            android:title="GSM Call" />
+
+        <item
+            android:id="@+id/menu_by_whatsapp_msg"
+            android:checkable="true"
+            android:icon="@drawable/ic_msg_chat"
+            android:title="WA Message" />
+
+        <item
+            android:id="@+id/menu_by_whatsapp_call"
+            android:checkable="true"
+            android:icon="@drawable/ic_msg_chat"
+            android:title="WA Call" />
+    </group>
+</menu>
